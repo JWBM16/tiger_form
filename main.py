@@ -653,7 +653,7 @@ def get():
     logo = Img(src="tigerlogo.png", alt="Logo", style="width: 187px; height: 45px;") 
     return Titled(
         Div(logo, " Formato de Ingreso Vehiculos"),
-        P(A("Regresar a formulario clientes", href="/")),
+        P(A("Regresar a formulario clientes", href="/clientes")),
         P(Em("A continuacion ingrese los datos del vehiculo")),
         P("Seleccione un Propietario"),
         render_content_vehiculos()
